@@ -12,6 +12,7 @@ Standard installation of GalSync will suffice, however the following changes mus
 
 1) Create a boolean MV attribute for Person objects named "migrated" <-case sensitive
 2) Create an IAF for User->Person for each MA that will be a source for GalSync, the IAF should be a mapping type Advanced with a Flow Rule Name "CalculateMigrated" <- case sensitive
+   
    Datasource attributes should be msExchRecipientTypeDetails and msExchRemoteRecipientType, Metaverse attribute will be "migrated" 
 
 * No quotes should be used for MV attributes or Flow Rule Names
